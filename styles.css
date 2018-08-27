@@ -1,0 +1,62 @@
+body {
+  background: center / cover no-repeat url("bg.gif");
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: white;
+}
+
+main {
+  background: hsla(240, 5%, 34%, 0.8);
+  padding: 4vh;
+}
+
+h1 {
+  font-family: 'Gravitas One', monospace;
+  font-weight: 200;
+  font-size: 12rem;
+  margin: 0;
+  color: salmon;
+}
+
+h2 {
+  margin: 0;
+  font-size: 10rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 200;
+}
+
+h3 a, .show-info a {
+  color: hsla(190, 99%, 40%, 1);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h3 a:hover, h3 a:active {
+  color: hsla(190, 99%, 60%, 1);
+}
+
+h4 {
+  font-family: 'Gravitas One', monospace;
+  font-size: 1.8rem;
+  color: salmon;
+}
+
+.shows {
+  margin: 2rem auto;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.show-info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  color: white;
+}
