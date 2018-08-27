@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: center / cover no-repeat url("bg.gif");
   text-align: center;
@@ -31,13 +35,13 @@ h3 {
   font-weight: 200;
 }
 
-h3 a, .show-info a {
+a {
   color: hsla(190, 99%, 40%, 1);
   font-weight: 600;
   font-size: 1.8rem;
 }
 
-h3 a:hover, h3 a:active {
+a:hover, a:active {
   color: hsla(190, 99%, 60%, 1);
 }
 
@@ -47,16 +51,50 @@ h4 {
   color: salmon;
 }
 
-.shows {
-  margin: 2rem auto;
+p {
+  font-size: 2rem;
+  margin: 0;
 }
 
-p {
-  font-size: 1rem;
+.interstitial {
+  font-size: 4rem;
+  margin: 4rem auto;  
+}
+
+.shows {
+  margin: 2rem auto;
 }
 
 .show-info {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   color: white;
+}
+
+h4.ontheweb {
+  color: hsla(31, 100%, 54%, 1);
+}
+
+form a {
+  font-size: 1rem;
+}
+
+input[type=text] {
+  padding: .2rem;
+  width: 15rem;
+  height: 2rem
+}
+
+input[type=submit] {
+  box-sizing: content-box;
+  font-size: 1rem;
+  background-color: #161f93;
+  color: white;
+  vertical-align: bottom;
+}
+
+label {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 0;
 }
