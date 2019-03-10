@@ -73,6 +73,7 @@ p {
 
 h4.ontheweb {
   color: hsla(31, 100%, 54%, 1);
+  font-size: 2.8rem;
 }
 
 form a {
@@ -97,4 +98,8 @@ label {
   font-size: 1.4rem;
   font-style: italic;
   margin: 0;
+}
+
+h3 a.outward {
+  font-size: 3rem;
 }
