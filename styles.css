@@ -3,11 +3,14 @@
 }
 
 body {
-  background: center / cover no-repeat url("bg.gif");
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: 200;
+}
+
+body.cover {
+  background: center / cover no-repeat url("bg.gif");
   color: white;
 }
 

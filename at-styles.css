@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+main {
+  padding: 4vh;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+p, ul, li {
+  font-size: 1rem;
+}
+
+a {
+  color: hsla(333, 100%, 50%, 1);
+  font-weight: 600;
+}
+
+a:hover, a:active {
+  color: hsla(190, 99%, 60%, 1);
+}
+
+.artists h5 {
+  font-size: 1.3rem;
+  color: #53535c;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works-list h4 {
+  font-size: 1.5rem;
+}
+
+.title, .work, .header-cols {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.header-cols, .title, .works-list {
+  justify-content: space-between;
+}
+
+.header-left-col, .header-right-col {
+  padding-right: 1rem;
+}
+
+.header-left-col {
+  min-width: 600px;
+  margin-bottom: 1rem;
+}
+
+.header-right-col {
+  font-size: 1.5rem;
+  display: none;
+}
+
+.left-col, .right-col {
+  flex: 1;
+  min-width: 400px;
+  padding-right: 2rem;
+}
+
+.divider, .big-divider {
+  height: 1rem;
+  width: 50%;
+  background-color: black;
+  margin: 2rem 0;
+}
+
+.conditional-divider {
+  display: block;
+}
+
+.big-divider {
+  height: 2rem;
+  width: 30%;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  font-size: 1.8rem;
+}
+
+.annotation {
+  margin: 0 0 1rem 0;
+}
+
+.top-space {
+  margin-top: 1.5rem;
+}
+
+.name, .annotation {
+  max-width: 75%;
+}
+
+.name.number {
+  color: #53535c;
+}
+
+.time {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .right-col {
+    margin-left: 1rem;
+  }
+  
+  .header-right-col {
+    display: block;
+  }
+  
+  .conditional-divider {
+    display: none;
+  }
+}
